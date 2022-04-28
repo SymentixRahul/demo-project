@@ -1,7 +1,6 @@
 
-function hello2()
+function hello()
 {
-    console.log("Hello dfsd");
+    console.log("Hello World");
 }
-
-hello2();
+hello(); 
