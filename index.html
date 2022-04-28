@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        user=
+        {   name:"manish",
+            printhello()
+            {
+                alert('hello ' + this.name);
+            }
+        }
+        function Hello() 
+        {
+            user.printhello();
+            /*
+            let user =
+        {
+            name:"manish",age:21
+        }
+        function Print()
+        {
+            alert("hello " + user.name);
+        }
+        user.fun1 = Print; // adding function after defining seprately
+            user.fun1();
+        /*
+            let user = 
+        {
+            name:"manish",age:21
+        }
+        user.Print = function()
+        {
+            alert("hello " + user.name);
+        }
+        
+
+            /*
+            
+            let age = prompt('Your age?', 18);
+            
+            switch (Number(age)) 
+            {
+                case 18:
+                    alert("Won't work"); // the result of prompt is a string, not a number
+                    break;
+
+                case "18":
+                    alert("This works!");
+                    break;
+
+                default:
+                    alert("Any value not equal to one above");
+            }
+            /* 
+            user ="fsdf"
+            unded
+            let a,b,c,d;
+            alert(a || b || c || d || 'no one'); // compare b/w true and flase.
+
+            /*
+            let a,b,c=3,d;
+            alert(a ?? b ?? c ?? d ?? 'no one'); // to show first defined value among all of them
+            /*
+            let allowed_age = age =>
+            {
+                if(age<=17)
+                return "less";
+                else 
+                return "more";
+            }
+            let age = prompt("enter your age");
+            +age;//string to int conversion
+            //let allowed_age = age => (age<18) ? "less":"more";
+            let result = allowed_age(age);
+            document.getElementById("name1").innerHTML = result;
+            /*
+        //Number(a) is same as +a which converts string into integer.
+        let printhello = () => alert("Hello World"); //no argument
+        let any = n =>n+1; // only one argument
+        let add = (c,d) =>  +c + +d; //many arguments
+        function sum()
+        {
+            let a = prompt("Enter a:");
+            let b= prompt("enter b:")
+            alert(add(a,b));
+        }
+           
+            
+            
+            /*
+            let num = "num";
+            document.getElementById("name1").innerHTML = Number(num);
+            if(document.getElementById("name1").innerHTML == "NaN")
+            {
+                document.getElementById("name1").innerHTML ="Not a Number!"; 
+            }
+            /*  
+            let ask = "name?";
+            let name =prompt(ask);
+            document.getElementById("name1").innerHTML = "Hello"  +  name;
+            /*
+            let result = confirm("Are you Sure?"); 
+            alert(result);
+            if(result == true)
+            {
+                document.getElementById("name1").innerHTML = "yes";
+            }
+            else
+            {
+                document.getElementById("name1").innerHTML = "no";
+            } */
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="name1"></h1>
+    <h1 id="name2"></h1>
+    <h1 id="name3"></h1>
+    <h1 id="name4"></h1>
+    <h1 id="name5"></h1>
+    <h1 id="name6"></h1>
+    <h1 id="name7"></h1>
+    <h1 id="name8"></h1>
+    <h1 id="name9"></h1>
+    <h1 id="name10"></h1>
+    <h1 id="name11"></h1>
+    <h1 id="name12"></h1>
+    <h1 id="name13"></h1>
+    <h1 id="name14"></h1>
+    <h1 id="name15"></h1>
+    <h1 id="name16"></h1>
+    <h1 id="name17"></h1>
+    <h1 id="name18"></h1>
+    <h1 id="name19"></h1>
+    <h1 id="name20"></h1>
+    <button type="button" onclick="Hello()">click me</button>
+</body>
+
+</html>
