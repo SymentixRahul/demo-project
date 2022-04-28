@@ -7,74 +7,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function Hello() {
+        user=
+        {   name:"manish",
+            printhello()
+            {
+                alert('hello ' + this.name);
+            }
+        }
+        function Hello() 
+        {
+            user.printhello();
+            /*
+            let user =
+        {
+            name:"manish",age:21
+        }
+        function Print()
+        {
+            alert("hello " + user.name);
+        }
+        user.fun1 = Print; // adding function after defining seprately
+            user.fun1();
+        /*
+            let user = 
+        {
+            name:"manish",age:21
+        }
+        user.Print = function()
+        {
+            alert("hello " + user.name);
+        }
+        
+
+            /*
+            
+            let age = prompt('Your age?', 18);
+            
+            switch (Number(age)) 
+            {
+                case 18:
+                    alert("Won't work"); // the result of prompt is a string, not a number
+                    break;
+
+                case "18":
+                    alert("This works!");
+                    break;
+
+                default:
+                    alert("Any value not equal to one above");
+            }
+            /* 
+            user ="fsdf"
+            unded
+            let a,b,c,d;
+            alert(a || b || c || d || 'no one'); // compare b/w true and flase.
+
+            /*
+            let a,b,c=3,d;
+            alert(a ?? b ?? c ?? d ?? 'no one'); // to show first defined value among all of them
+            /*
+            let allowed_age = age =>
+            {
+                if(age<=17)
+                return "less";
+                else 
+                return "more";
+            }
+            let age = prompt("enter your age");
+            +age;//string to int conversion
+            //let allowed_age = age => (age<18) ? "less":"more";
+            let result = allowed_age(age);
+            document.getElementById("name1").innerHTML = result;
+            /*
+        //Number(a) is same as +a which converts string into integer.
+        let printhello = () => alert("Hello World"); //no argument
+        let any = n =>n+1; // only one argument
+        let add = (c,d) =>  +c + +d; //many arguments
+        function sum()
+        {
+            let a = prompt("Enter a:");
+            let b= prompt("enter b:")
+            alert(add(a,b));
+        }
+           
+            
             
             /*
-            var result = prompt("Any Title name","default value");
-            document.getElementById("name1").innerHTML =  result;
-            /*
-            var a = 5;
-            document.getElementById("name1").innerHTML =  "A = " + a+ " = " + typeof a;
-           var b = 9999999999999n; // n at last is compolsary for BigInteger;
-            document.getElementById("name2").innerHTML =  "B = " + b + " = " + typeof b;
-            var c = undefined;
-            document.getElementById("name3").innerHTML =  "C = " + c + " = " + typeof c;
-            var d = null;
-            document.getElementById("name4").innerHTML =  "D = " + d + " = " + typeof d;
-            var e = "anyname";
-            document.getElementById("name5").innerHTML =  "E = " + e + " = " + typeof e;
-            var f = true;
-            document.getElementById("name6").innerHTML =  "F = " + f + " = " + typeof f;
-            //symbol("id-here") = "manish";
-            document.getElementById("name7").innerHTML =  "Symbol = "  + typeof Symbol("id-here");
-            document.getElementById("name8").innerHTML =  "null = " + typeof null;
-            document.getElementById("name9").innerHTML =  "Math = " + typeof Math;
-            var z = typeof Hello();
-            document.getElementById("name8").innerHTML =  "Hello() = "  + z;
-
-
-
-            /*
-            let name = "Ilya";
-
-            alert(`hello ${1}`); // hello 1
-
-            alert(`hello ${"name"}`); // hello name
-
-            alert(`hello ${name}`); // hello Ilya
-            alert("hello ${name}"); // hello ${name}
-
-            /*
-            var a ="2";
-            var b = 2;
-            var c= a+b;
-            alert(c);// output : 22
-            /*
-            var a =1;
-            let b=2;
-            const c = 3;
-            const d; // ERROR
-            d = 1; // ERROR
-            document.getElementById("name1").innerHTML =" a = "+ a;
-            document.getElementById("name2").innerHTML =" b = "+ b;
+            let num = "num";
+            document.getElementById("name1").innerHTML = Number(num);
+            if(document.getElementById("name1").innerHTML == "NaN")
             {
-                c = 4; // ERROR!
-                var a = 5;
-                let b=6;
-                document.getElementById("name3").innerHTML = "in 1st block = " + a;
-                document.getElementById("name4").innerHTML = "in 1st block = " + b;
+                document.getElementById("name1").innerHTML ="Not a Number!"; 
             }
-
-            c=99; // ERROR!
-            document.getElementById("name5").innerHTML = "After 1st block ' C ' = " + c;
-
+            /*  
+            let ask = "name?";
+            let name =prompt(ask);
+            document.getElementById("name1").innerHTML = "Hello"  +  name;
+            /*
+            let result = confirm("Are you Sure?"); 
+            alert(result);
+            if(result == true)
             {
-            var a=8;
-            let b=9;
-            document.getElementById("name6").innerHTML = "2nd block = " + a;
-            document.getElementById("name7").innerHTML = "2nd block = " + b;
-            } 
-            */
+                document.getElementById("name1").innerHTML = "yes";
+            }
+            else
+            {
+                document.getElementById("name1").innerHTML = "no";
+            } */
         }
     </script>
 </head>
